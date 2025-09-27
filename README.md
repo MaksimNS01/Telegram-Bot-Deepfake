@@ -32,8 +32,9 @@ pip install -r requirements.txt
 ```
 3. Настройте конфигурацию в app/settings.py:
 ```bash
-CHANNEL_ID = -1000000000000  # ID канала для проверки подписки
-YOUR_BOT_ID = "your_bot_username"
+API_TOKEN = 'YOUR_BOT_TOKEN' # Токен бота
+YOUR_BOT_ID = 'YOUR_BOT_ID' # ID бота
+CHANNEL_ID = 'YOUR_CHANNEL_ID' # ID канала для проверки подписки
 ```
 4. Запустите бота:
 ```bash
