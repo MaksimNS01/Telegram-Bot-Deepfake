@@ -1,0 +1,7 @@
+1. Run in terminal:
+pip install wheels/dlib-19.24.1-cp311-cp311-win_amd64.whl
+pip install wheels/onnx-1.15.0-cp311-cp311-win_amd64.whl
+
+2. Copy from models_onnx to ~\Lib\site-packages\.assets\models
+
+3. Run Docker
